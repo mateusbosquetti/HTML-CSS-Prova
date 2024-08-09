@@ -1,0 +1,437 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+:root {
+    --wColor: #fff;
+    --wBlack: #000;
+    --bgRed: #C80000;
+    --bgYellow: #F7B044;
+    --bgGreen: #12762e;
+}
+
+header {
+    background-color: var(--bgRed);
+}
+
+header img {
+    width: 20%;
+    display: flex;
+    margin: 0 auto;
+}
+
+nav {
+    margin-top: 2%;
+    text-align: center;
+    color: var(--wColor);
+    padding: 2% 0%;
+}
+
+/* seção 1 */
+.introduction {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(/style/img/banner-tacos-burritos.jpg);
+    background-size: cover;
+    height: 50vh;
+    align-content: center;
+}
+
+.introduction hr {
+    border: 2px solid var(--bgYellow);
+    margin: 0% 25% 20% 25%;
+}
+
+.introduction h5 {
+    text-align: center;
+}
+
+.introductionText {
+    margin-bottom: 5%;
+    font-size: 5vw;
+    ;
+}
+
+.introduction a {
+    text-decoration: none;
+    color: var(--wBlack);
+    background-color: var(--bgYellow);
+    font-size: 2.5vw;
+    padding: 3.5% 2%;
+    display: flex;
+    margin: 0% 35%;
+    justify-content: center;
+}
+
+.sectionMargin {
+    margin: 15% 10% 15% 10%;
+}
+
+.about {
+    width: 100%;
+}
+
+.info {
+    margin: 18% 0%;
+    line-height: 125%;
+}
+
+.info h3 {
+    font-size: 5.5vw;
+}
+
+.info p {
+    font-size: 3.5vw;
+    margin-top: 2%;
+    color: var(--wBlack);
+}
+
+.sectionProducts {
+    margin: 0%;
+    padding: 0%;
+}
+
+.sectionProducts img {
+    width: 100vw;
+}
+
+.tacosProduct {
+    background-color: var(--bgRed);
+}
+
+.burritosProduct {
+    background-color: var(--bgGreen);
+}
+
+.panProduct {
+    background-color: var(--bgYellow);
+}
+
+.sectionProducts h4 {
+    color: var(--wColor);
+    font-size: 6vw;
+}
+
+.sectionProducts p {
+    color: var(--wColor);
+    font-size: 3vw;
+}
+
+.sectionProducts a {
+    text-decoration: none;
+    color: var(--wBlack);
+    background-color: var(--wColor);
+    font-size: 2.5vw;
+    padding: 2% 3.5%;
+    display: flex;
+    margin: 6% 30.5%;
+    justify-content: center;
+}
+
+.sectionProducts div div {
+    text-align: center;
+    padding: 8% 7% 6% 7%;
+    line-height: 150%;
+}
+
+/* popular Tacos */
+
+.sectionMarginPopular {
+    background-color: #eeee;
+    padding: 15% 10% 15% 10%;
+}
+
+
+.popularTittle {
+    color: var(--bgGreen);
+    font-size: 9vw;
+}
+
+.popularSubtittle {
+    font-size: 3.5vw;
+    color: var(--wBlack);
+    margin-top: 3.5%;
+    line-height: 135%;
+
+}
+
+.popularTacos p {
+    text-align: center;
+}
+
+.sectionMarginPopular {
+    font-size: 4vw;
+
+}
+
+.popularTacos img {
+    width: 95%;
+    background-color: var(--wBlack);
+    border-top: 5px solid var(--bgYellow);
+    box-shadow: 1px 6px 10px 0px gray;
+    text-align: end;
+    margin: 25% 0%;
+}
+
+.sameLine {
+    display: flex;
+}
+
+.sectionMarginPopular a {
+    text-decoration: none;
+    color: var(--wBlack);
+    background-color: var(--bgGreen);
+    color: var(--wColor);
+    font-size: 2.5vw;
+    padding: 3.5% 3.5%;
+    display: flex;
+    margin: 8% 32.5%;
+    justify-content: center;
+}
+
+/* contate-nos */
+.sectionContact {
+    background: linear-gradient(rgba(18, 118, 46, 0.8), rgba(18, 118, 46, 0.8)),
+    url(/style/img/banner-tacos.png);
+    padding: 15% 10% 15% 10%;
+    background-size: cover;
+    
+}
+
+.sectionContact h3 {
+    font-size: 8vw;
+    text-align: center;
+    color: var(--bgYellow);
+}
+
+.sectionContact hr {
+    margin: 2.5% 45% 5% 45%;
+    border: 2px solid var(--bgYellow);
+}
+
+.contactSubtittle {
+    color: var(--wColor);
+    font-size: 2vw;
+    text-align: center;
+    padding: 0% 10%;
+    line-height: 130%;
+}
+
+.infoContact {
+    background-color: var(--wColor);
+    text-align: center;
+    margin: 5% 0%;
+    line-height: 110%;
+    padding: 15% 0%;
+}
+
+.infoContact h6 {
+    font-size: 3.5vw;
+}
+
+.infoContact p {
+    font-size: 2.5vw;
+    margin: 0% 25%;
+}
+
+
+.infoContact img {
+    width: 15%;
+}
+
+.lastButtons {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15%;
+}
+
+.lastButtons img {
+    width: 5%;
+    background-color: #C80000;
+    padding: 3.5%;
+    border-radius: 100px;
+}
+
+.navDesktop {
+    display: none;
+}
+
+.headerDesktop {
+    display: none;
+}
+
+.product {
+    text-align: center;
+}
+
+a :hover {
+    scale: 1.1;
+    transition: 0.2s;
+}
+
+@media (min-width: 768px) {
+
+    header {
+        display: none;
+    }
+
+    .headerDesktop {
+        display: flex;
+        justify-content: space-between;
+        color: var(--wColor);
+        align-items: center;
+        padding: 0% 10%;
+        margin-bottom: 5%;
+
+    }
+
+    .headerDesktop img {
+        width: 10%;
+    }
+
+    .headerDesktop div {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        font-size: 1.2vw;
+    }
+
+    .loginDesktop {
+        background-color: #C80000;
+        padding: 2% 6%;
+    }
+
+    .introduction {
+        padding-bottom: 50%;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+
+    .introduction a {
+        text-decoration: none;
+        color: var(--wBlack);
+        background-color: var(--bgYellow);
+        font-size: 1.80vw;
+        padding: 1.5% 0%;
+        display: flex;
+        margin: 0% 38.5%;
+        justify-content: center;
+    }
+
+    nav {
+        display: flex;
+    }
+
+    .navDesktop {
+        display: flex;
+    }
+
+    .sameLineDesktop {
+        display: flex;
+        gap: 50px;
+    }
+
+    .sectionMargin img {
+        width: 60%;
+        height: 100%;
+    }
+
+    .infos {}
+
+    .info {
+        margin: 18% 0%;
+    }
+
+    .info h3 {
+        font-size: 2.65vw;
+    }
+
+    .info p {
+        font-size: 1.5vw;
+        margin-top: 5%;
+        line-height: 150%;
+        color: var(--wBlack);
+    }
+
+    .sectionProducts {
+        display: flex;
+    }
+
+    .sectionProducts img {
+        width: 100%;
+    }
+
+    .tacosProduct {
+        width: 33.33333%;
+
+    }
+
+    .sectionProducts div div {
+        line-height: 300%;
+    }
+
+    .burritosProduct {
+        width: 33.33333%;
+    }
+
+    .panProduct {
+        width: 33.33333%;
+    }
+
+
+    .sectionProducts h4 {
+        font-size: 3vw;
+    }
+
+    .sectionProducts p {
+        font-size: 1vw;
+    }
+
+    .sectionProducts a {
+        font-size: 1.5vw;
+    }
+
+    .popularTacos {
+        display: flex;
+        justify-content: center;
+    }
+
+    .contactUsDesktop {
+        display: flex;
+        gap: 10%;
+        justify-content: center;
+    }
+
+    .infoContact {
+        width: 25%;
+        padding: 7.5% 0%;
+        line-height: 300%;
+    }
+
+    .infoContact p {
+        margin: 0;
+        font-size: 1vw;
+    }
+
+    .infoContact h6 {
+        margin: 0;
+        font-size: 3vw;
+    }
+
+    .lastButtons {
+        justify-content: center;
+        gap: 5%;
+    }
+
+    .lastButtons img {
+        width: 4%;
+        padding: 2%;
+    }
+
+    .introduction hr {
+        margin-bottom: 5%;
+    }
+
+}
